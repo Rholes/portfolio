@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    margin: 0px 7.3%;
+    background-image: url("bk-01-01.png");
+    background-color: #FFFCF4;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #5D8958;   
+}
+
+#menu {
+    list-style-type: none;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+#menu li{
+    padding: 2rem;
+}
+#menu li a{
+    text-decoration: none;
+    color: #5D8958;
+}
+#menu li a:active{
+    font-weight: 700;
+}
+
+#cover{
+    display: flex;
+    justify-content: space-between;
+}
+#cover img{
+    display: none;
+}
+
+#front-name{
+    font-family: "Space Mono", monospace;
+    text-align: center;
+    padding-top: 8%;
+}
+#front-name > h1{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5em;
+}
+#front-name > h2{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-family: "Space Mono", monospace;
+    font-size: 0.8em;
+    color: #FFFCF4;
+}
+.item{
+    background-color: #5D8958;
+    width: 9rem;
+    padding: 1.5rem;
+    text-align: center;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item a{
+    text-decoration: none;
+    color: #FFFCF4;
+}
+.item a span:active{
+    font-weight: 700;
+}
+#item1{
+    border-radius: 0 0 0 3rem;
+}
+#item2{
+    border-radius: 3rem 0 0 3rem;
+}
+#item3{
+    border-radius: 3rem 3rem 0 3rem;
+}
+#item4{
+    border-radius: 3rem 3rem 3rem 3rem;
+}
+
+.about, .work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Space Mono", monospace;
+}
+.tag{
+    margin: 3rem 0;
+}
+.solid_line{
+    border-top: 1.6px solid #5D8958;
+    width: 80vw;
+}
+#myphoto{
+    width: 50%;
+    border-radius: 0 0 3rem 0;
+    margin-bottom: 3rem;
+}
+.about_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inside_text p{
+    font-size: 12pt;
+    padding-bottom: 2rem;
+}
+#salut{
+    font-size: 20pt;
+    font-weight: 700;
+}
+#who{
+    font-weight: 700;
+}
+#badges{
+    display: flex;
+    justify-content: space-around;
+}
+#badges img{
+    width: 10%;
+}
+
+.work_title hr{
+    visibility: hidden;
+}
+.work_title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.project_title{
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.images img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.images span{
+    margin-bottom: 1rem;
+    font-size: 10pt;
+}
+.work .inside_text{
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.footer{
+    font-family: "Space Mono", monospace;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;    
+}
+#footer_text{
+    display: flex;
+    justify-content: space-around;  
+}
+#contact a{
+    text-decoration: none;
+    color: #5D8958; 
+}
+#contact a:active{
+    font-weight: 700;
+}
+.footer p{
+    font-size: 18pt;
+}
+#contact p{
+    font-size: 13pt;
+    margin-bottom: 1rem;
+}
+.footer span{
+    font-size: 8pt;
+    margin-top: 1.5rem;
+}
+
+.images.img_slider img {
+    display: none;
+}
+
+
+/* Animation classes*/
+
+.hidden{
+    opacity: 0;
+    transition: all 2s;
+}
+.show{
+    opacity: 1;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (min-width: 576px){
+
+    #menu li{
+        padding-left: 4rem;
+    }
+    #cover img{
+        display: inline-block;
+        padding-top: 4%;
+        width: 30%;
+        height: 30%;
+        object-fit: cover;
+    }
+    #cover{
+        align-items: center;
+    }
+    #front-name{
+        padding-top: 2%;
+        text-align: right;
+    }
+    #list{
+        justify-content: right;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .item{
+        width: 7rem;
+        padding: 0.8rem;
+        margin: 0.45rem;
+    }
+    .tag{
+        margin-top: 1rem;
+    }
+    .about_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    #myphoto{
+        width: 35%;
+    }
+    .about_container .inside_text{
+        padding-left: 1.5rem;
+    }
+    .about, .work{
+        align-items: normal;
+    }
+    #badges img{
+        width: 8%;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    *{
+        cursor: url('cursor.png'), auto;
+    }
+    body{
+        margin: 0px 10%;
+    }
+    #menu{
+        justify-content: right;
+    }
+    #menu li:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    #menu li{
+        padding: 2rem 0 2rem 2rem;
+    }
+    .item a span:hover{
+        cursor: pointer;
+        font-weight: 700;
+    }
+    #myphoto{
+        width: 25%;
+        margin-bottom: 0;
+    }
+    .about_container .inside_text{
+        padding-left: 2.5rem;
+    }
+    #badges{
+        justify-content: left;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    #badges img{
+        width: 5%;
+        margin-right: 2rem;
+   
+    }
+    .work_container{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 3rem;
+    }
+    .images{
+        width: 100%;
+    }
+    .inside_text{
+        padding-right: 2rem;
+        width: 100%;
+    }
+    .footer{
+        margin-top: 3rem;
+    }
+    .img_slider{
+        position: relative;
+    }
+    .prev-cursor {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        cursor: url('previous.png'), auto;
+    }
+    .next-cursor {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        cursor: url('next-01.png'), auto;
+    }
+    #contact a:hover{
+        cursor: pointer;
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .about{
+        margin-top: 4rem;
+    }
+    #myphoto{
+        width: 20%;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    #badges img{
+        width: 4%;
+    }
+}

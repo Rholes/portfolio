@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script defer src="animation.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <ul id="menu">
+            <li id="li1"><a href="#aboutSection">ABOUT</a></li>
+            <li id="li2"><a href="#workSection">WORK</a></li>
+            <li id="li3"><a href="#contactSection">CONTACT</a></li>
+        </ul>
+
+        <div id="cover">
+            <img src="images/blobs.png" alt="design elements" />
+
+            <div id="front-name">
+                <h1 class="title">
+                    <span class="title-word title-word-1">ADELINA</span>
+                    <span class="title-word title-word-2">IANCU</span>
+                </h1>
+                <h2>~ design portfolio</h2>
+            </div>
+        </div>
+
+        <div id="list" class="hidden">
+
+            <div class="item" id="item1">
+                <a href="#webdesign">
+                    <span>WEB DESIGN</span>
+                </a>
+            </div>
+
+            <div class="item" id="item2">
+                <a href="#branding">
+                <span>BRANDING</span>
+                </a>
+            </div>
+            <div class="item" id="item3">
+                <a href="#gd">
+                <span>GRAPHIC DESIGN</span>
+                </a>
+            </div>
+            <div class="item" id="item4">
+                <a href="#illustration">
+                <span>ILLUSTRATION</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="about" id="aboutSection">
+            <div class="tag">
+                <span>ABOUT ME</span>
+                <hr class="solid_line">
+            </div>
+
+            <div class="about_container">
+                <img src="images/me.jpg" alt="profile photo" id="myphoto">
+
+                <div class="inside_text hidden">
+                    <p id="salut">BUNĂ!</p>
+                    <p id="who">Sunt Adelina, un designer pasionat și mereu în căutarea de a mă autodepăși și de a învăța. Îmi place să ma inspir din natură și să o reinterpretez pentru a crea povești vizuale.</p>
+                    <p>Încă din copilărie am fost atrasă de imaginile din cărți și cataloage petrecând mult timp răsfoindu-le. Deși în liceu am avut ocazia să lucrez ca editor pentru revista acestuia am realizat mult mai târziu atracția mea pentru design. În timpul liber sunt o cititoare înrăită, iubitoare de animale și plante și amatoare de seriale și filme.</p>
+                </div>
+            </div>
+            <div id="badges">
+                <img src="images/badge-01.png" alt="illustrator badge">
+                <img src="images/badge-02.png" alt="photoshop badge">
+                <img src="images/badge-03.png" alt="indesign badge">
+                <img src="images/badge-05.png" alt="xd badge">
+                <img src="images/badge-04.png" alt="visual studio code badge">
+            </div>
+        </div>
+
+        <div class="work" id="workSection">
+            <div class="tag">
+                <span>WORK</span>
+                <hr class="solid_line">
+            </div>
+
+            <div class="work_title" id="webdesign">
+                <span class="project_title">SWEET DREAMS BAKERY WEBSITE</span>
+                <span class="project_type">Wireframing and Prototyping</span>
+                <hr class="solid_line" />
+            </div>
+
+            <div class="work_container">
+                <div class="images hidden">
+                    <img src="images/site1.gif" alt="bakery website">
+                </div>
+
+                <div class="inside_text">
+                    <p>Site-ul pentru o patiserie virtuală a reprezentat tema cursului de Adobe XD. Personalitatea jucăușă și prietenoasă a brandului Sweet Dreams Bakery se reflectă și în site, acesta fiind o atât o platformă de prezentare a afacerii - prin secțiunile Cine Suntem și Produsele Noastre, dar și un magazin online vizitatorii având opțiunea de a plasa o comandă.  </p>
+                    <p>Adobe XD | Adobe Photoshop</p>
+                </div>
+            </div>
+
+
+            <div class="work_title">
+                <span class="project_title">NEWS WEBSITE</span>
+                <span class="project_type">Web Design</span>
+                <hr class="solid_line" />
+            </div>
+
+            <div class="work_container">
+                <div class="images hidden">
+                    <img src="images/site2.gif" alt="news website">
+                </div>
+
+                <div class="inside_text">
+                    <p>Site-ul creat pentru cursul Modern CSS Layout este un site de știri locale cu un format clasic pentru acest tip de platformă. Știrile au în dreptul titlului o etichetă colorată pentru codificarea vizuală a tematicii. Ținând cont de specificul site-ului conținutul acestuia este responsive pentru telefoane, tablete și ecrane mari.</p>
+                    <p>Visual Studio Code | Adobe XD | Photoshop</p>
+                </div>
+            </div>
+
+            <div class="work_title">
+                <span class="project_title">BIOLOGY LEARNING PLATFORM</span>
+                <span class="project_type">Web Design</span>
+                <hr class="solid_line" />
+            </div>
+
+            <div class="work_container">
+                <div class="images hidden">
+                    <img src="images/site3.gif" alt="biology learning platform">
+                </div>
+
+                <div class="inside_text">
+                    <p>Platforma de biologie creată în cadrul cursului HTML & CSS Intermediate este gândită pentru a veni în ajutorul elevilor și profesorilor. Materia este împărțită pe capitole existând de asemenea și materiale suplimentaare într-o secțiune dedicată. </p>
+                    <p>Adobe Illustrator | Visual Studio Code</p>
+                </div>
+            </div>
+
+            <div class="work_title" id="branding">
+                <span class="project_title">Savondeur Brand Identity</span>
+                <span class="project_type">Branding</span>
+                <hr class="solid_line" />
+            </div>
+
+            <div class="work_container">
+                <div class="images img_carusel1 img_slider hidden">
+                    <img src="images/savon1.jpg" alt="savondeur brand identity">
+                    <img src="images/savon2.jpg" alt="savondeur brand identity">
+                    <img src="images/savon3.jpg" alt="savondeur brand identity">
+                    <span class="count"></span>
+                    <div class="prev-cursor"></div>
+                    <div class="next-cursor"></div>
+                </div>
+
+                <div class="inside_text">
+                    <p>Savondeur este un proiect de brand identity pentru un brand fictiv. Acesta produce săpunuri handmade inspirate din cultura și aromele din Maroc și Franța având per total un aspect vintage. Pentru acest proiect am realizat manualul de identitate vizuală incluzând culorile, logoul cu variații, simbolul, pattern-ul, un exemplu de ambalaj și diferite mockup-uri cu materiale promoționale.   </p>
+                    <p>Adobe Illustrator | Adobe Photoshop | Adobe Indesign</p>
+                </div>
+            </div>
+
+            <div class="work_title">
+                <span class="project_title">Pan-tique Brand Identity</span>
+                <span class="project_type">Branding</span>
+                <hr class="solid_line" />
+            </div>
+
+            <div class="work_container">
+                <div class="images img_carusel2 img_slider hidden">
+                    <img src="images/pan1.jpg" alt="pantique brand identity">
+                    <img src="images/pan2.jpg" alt="pantique brand identity">
+                    <img src="images/pan3.jpg" alt="pantique brand identity">
+                    <span class="count"></span>
+                    <div class="prev-cursor"></div>
+                    <div class="next-cursor"></div>
+                </div>
+
+                <div class="inside_text">
+                    <p>Pan-tique este brand-ul unei brutării imaginare. Aceasta își dorește să readucă la realitate produsele de panificație tradiționale incluzând în gama lor rețete și tehnici istorice recreate. Pentru acest proiect am realizat manualul de identitate vizuală incluzând culorile, logoul cu variații, simbolul, pattern-ul și diferite mockup-uri cu materiale promoționale. </p>
+                    <p>Adobe Illustrator | Adobe Photoshop | Adobe Indesign</p>
+                </div>
+            </div>
+
+            <div class="work_title" id="gd">
+                <span class="project_title">Book Cover Projects</span>
+                <span class="project_type">Graphic Design</span>
+                <hr class="solid_line" />
+            </div>
+
+            <div class="work_container">
+                <div class="images img_carusel3 img_slider hidden">
+                    <img src="images/book1.jpg" alt="book cover the woman in the dunes">
+                    <img src="images/book2.jpg" alt="book cover metamorphosis">
+                    <span class="count"></span>
+                    <div class="prev-cursor"></div>
+                    <div class="next-cursor"></div>
+                </div>
+
+                <div class="inside_text">
+                    <p>Ambele coperți au fost realizate ținând cont de conținutul fiecăreia. Coperta pentru The Woman in the Dunes a fost gândită ca parte a unei colecții de roman iar aceasta reprezintă drumul prin deșert al protagonistului aflat in căutarea unei insecte.</p>
+                    <p>Coperta pentru cartea Metamorphosis este formată dintr-un colaj de poze unite prin-o linie ce reprezintă parcursul protagonistului </p>
+                    <p>Adobe Illustrator | Adobe Photoshop</p>
+                </div>
+            </div>
+
+            <div class="work_title">
+                <span class="project_title">Cell Themed Zine</span>
+                <span class="project_type">Graphic Design</span>
+                <hr class="solid_line" />
+            </div>
+
+            <div class="work_container">
+                <div class="images img_carusel4 img_slider hidden">
+                    <img src="images/cell1.jpg" alt="celula coperta">
+                    <img src="images/cell2.jpg" alt="celula cu marginile din text">
+                    <img src="images/cell3.jpg" alt="celula vs tesut">
+                    <img src="images/cell4.jpg" alt="poza abstractizare celule rosii">
+                    <img src="images/cell5.jpg" alt="coperta spate">
+                    <span class="count"></span>
+                    <div class="prev-cursor"></div>
+                    <div class="next-cursor"></div>
+                </div>
+
+                <div class="inside_text">
+                    <p>Scurtă revistă pe tema explorării reprezentării visuale a celulei. Pentru reprezentarea celulelor roșii am realizat fotografii cu felii de morcov taiate subțiri pentru a lăsa lumina sa treacă prin ele, după care le-am editat pentru a obține o imagine cât mai asemănătoare cu ceea a curgerii globulelor roșii prin vase.  </p>
+                    <p>Adobe Illustrator | Adobe Photoshop</p>
+                </div>
+            </div>
+
+
+            <div class="work_title">
+                <span class="project_title">Koishi Lamat Catalogue</span>
+                <span class="project_type">Graphic Design</span>
+                <hr class="solid_line" />
+            </div>
+
+            <div class="work_container">
+                <div class="images img_carusel5 img_slider hidden">
+                    <img src="images/catalog1.jpg" alt="catalog coperta">
+                    <img src="images/catalog2.jpg" alt="catalog interior">
+                    <img src="images/catalog3.jpg" alt="catalog interior">
+                    <img src="images/catalog4.jpg" alt="catalog interior">
+                    <img src="images/catalog5.jpg" alt="catalog coperta">
+                    <span class="count"></span>
+                    <div class="prev-cursor"></div>
+                    <div class="next-cursor"></div>
+                </div>
+
+                <div class="inside_text">
+                    <p>Catalog de prezentare a bijuteriilor Koishi Lamat creat in cadrul cursului de Adobe InDesign. Fiecare categorie de bijuterii este reprezentată pe marginile laterale ale paginilor fie de o bijuterie reprezentativă fie de una din pozele artistice de prezentare. Stilul este unul minimalist modern, inspirat de texturi și linii dinamice și elegante amintind de o versiune modernă a statuilor greco-romane.</p>
+                    <p>Adobe InDesign | Adobe Photoshop</p>
+                </div>
+            </div>
+
+
+            <div class="work_title">
+                <span class="project_title">Sage Pollination Infographic</span>
+                <span class="project_type">Graphic Design</span>
+                <hr class="solid_line" />
+            </div>
+
+            <div class="work_container">
+                <div class="images img_carusel6 img_slider hidden">
+                    <img src="images/infosage1.jpg" alt="infographic polenizazre salvie">
+                    <img src="images/infosage2.jpg" alt="infographic polenizazre salvie zoom in">
+                    <span class="count"></span>
+                    <div class="prev-cursor"></div>
+                    <div class="next-cursor"></div>
+                </div>
+
+                <div class="inside_text">
+                    <p>Infografic pe tema polenizării salviei și a florilor asemănatoare. Imaginile utilizate pentru reprezentarea procesului de polenizare sunt sub forma unui colaj, acestea fiind "decupate" din atlase vechi care și-au pierdut drepturile de copyright.</p>
+                    <p>Adobe Illustrator | Adobe Photoshop</p>
+                </div>
+            </div>
+
+            <div class="work_title">
+                <span class="project_title">Freedom Ship Infographic</span>
+                <span class="project_type">Graphic Design</span>
+                <hr class="solid_line" />
+            </div>
+
+            <div class="work_container">
+                <div class="images img_carusel7 img_slider hidden">
+                    <img src="images/infoship1.jpg" alt="infographic freedom ship">
+                    <img src="images/infoship2.jpg" alt="infographic freedom ship zoom in">
+                    <span class="count"></span>
+                    <div class="prev-cursor"></div>
+                    <div class="next-cursor"></div>
+                </div>
+
+                <div class="inside_text">
+                    <p>Reprezentarea vizuală a datelor despre dimensiunea și capacitatea vvaporului Freedom Ship aflat numai în stadiul de plan în comparație cu vasul Explorer Of The Seas.</p>
+                    <p>Adobe Illustrator</p>
+                </div>
+            </div>
+
+            <div class="work_title">
+                <span class="project_title">Sunflower Infographic</span>
+                <span class="project_type">Graphic Design</span>
+                <hr class="solid_line" />
+            </div>
+
+            <div class="work_container">
+                <div class="images img_carusel8 img_slider hidden">
+                    <img src="images/infosun1.jpg" alt="infographic floarea soarelui">
+                    <img src="images/infosun2.jpg" alt="infographic floarea soarelui detaliu">
+                    <img src="images/infosun3.jpg" alt="infographic floarea soarelui detaliu">
+                    <span class="count"></span>
+                    <div class="prev-cursor"></div>
+                    <div class="next-cursor"></div>
+                </div>
+
+                <div class="inside_text">
+                    <p>Infografic cu tema floarea soarelui care prezintă date despre anatomia, fiziologia, utilizările și valorile nutriționale ale acesteia.</p>
+                    <p>Adobe Illustrator | Adobe Photoshop | Krita</p>
+                </div>
+            </div>
+
+
+            <div class="work_title">
+                <span class="project_title">Flyers and Brochures</span>
+                <span class="project_type">Graphic Design</span>
+                <hr class="solid_line" />
+            </div>
+            <div class="work_container">
+                <div class="images img_carusel9 img_slider hidden">
+                    <img src="images/flyer1.jpg" alt="brosura exterior">
+                    <img src="images/flyer2.jpg" alt="brosura interior">
+                    <img src="images/flyer3.jpg" alt="flyer">
+                    <span class="count"></span>
+                    <div class="prev-cursor"></div>
+                    <div class="next-cursor"></div>
+                </div>
+
+                <div class="inside_text">
+                    <p>Flyere și broșuri realizate în cadrul cursurilor dar și în afara acestora.</p>
+                    <p>Adobe Illustrator | Adobe Photoshop</p>
+                </div>
+            </div>
+
+            <div class="work_title">
+                <span class="project_title">Banners</span>
+                <span class="project_type">Graphic Design</span>
+                <hr class="solid_line" />
+            </div>
+            <div class="work_container">
+                <div class="images img_carusel10 img_slider hidden">
+                    <img src="images/banner1.jpg" alt="banners">
+                    <img src="images/banner2.jpg" alt="banners">
+                    <span class="count"></span>
+                    <div class="prev-cursor"></div>
+                    <div class="next-cursor"></div>
+                </div>
+
+                <div class="inside_text">
+                    <p>Diferite bannere de promovare pentru web realizate în cadrul cursurilor dar și în afara acestora.</p>
+                    <p>Adobe Photoshop</p>
+                </div>
+            </div>
+
+            <div class="work_title">
+                <span class="project_title">Different Icons</span>
+                <span class="project_type">Graphic Design</span>
+                <hr class="solid_line" />
+            </div>
+            <div class="work_container">
+                <div class="images img_carusel11 img_slider hidden">
+                    <img src="images/icons1.jpg" alt="tiles icons">
+                    <img src="images/icons2.jpg" alt="leaves icons">
+                    <img src="images/icons3.jpg" alt="leaves icons">
+                    <img src="images/icons4.jpg" alt="leaves icons">
+                    <img src="images/icons5.jpg" alt="leaves icons">
+                    <span class="count"></span>
+                    <div class="prev-cursor"></div>
+                    <div class="next-cursor"></div>
+                </div>
+
+                <div class="inside_text">
+                    <p>Icons și diferite frome simplificate.</p>
+                    <p>Adobe Illustrator</p>
+                </div>
+            </div>
+
+
+            <div class="work_title" id="illustration">
+                <span class="project_title">Nvidia Studio Contest Entry</span>
+                <span class="project_type">Digital Illustration</span>
+                <hr class="solid_line" />
+            </div>
+
+            <div class="work_container">
+                <div class="images img_carusel12 img_slider hidden">
+                    <img src="images/hanami1.jpg" alt="hanami illustration">
+                    <img src="images/hanami2.jpg" alt="hanami illustration">
+                    <img src="images/hanami3.jpg" alt="hanami illustration">
+                    <span class="count"></span>
+                    <div class="prev-cursor"></div>
+                    <div class="next-cursor"></div>
+                </div>
+
+                <div class="inside_text">
+                    <p>Illustrație digitală creată pentru concursul Nvidia Studio pe tematica Reflecții culturale, subiectul ales fiind Hanami - festivalul japonez al florilor de cireș. Am ales o reprezentare nocturnă a râului Meguro încadrat de cireșii înfloriți, în combinație cu bordurile florale ale stilul art-nouveau. </p>
+                    <p>Adobe Illustrator</p>
+                </div>
+            </div>
+
+
+            <div class="work_title">
+                <span class="project_title">BASF Povesti cu Vinuri Romanesti Contest Entry</span>
+                <span class="project_type">Digital Illustration</span>
+                <hr class="solid_line" />
+            </div>
+
+            <div class="work_container">
+                <div class="images img_carusel13 img_slider hidden">
+                    <img src="images/wine1.jpg" alt="wine illustration">
+                    <img src="images/wine2.jpg" alt="wine illustration detail">
+                    <span class="count"></span>
+                    <div class="prev-cursor"></div>
+                    <div class="next-cursor"></div>
+                </div>
+
+                <div class="inside_text">
+                    <p>Intrare pentru concursul BASF Povești cu Vinuri Românești pentru a fi utilizată ca și copertă a catalogului BASF. Am folosit din nou marginile botanice de inspirație art-nouveau pentru a încadra sticla de vin și cele două pahare retro de sticlă. Abstractizarea strugurilor se bazează pe o broderie tradițională.</p>
+                    <p>Adobe Illustrator</p>
+                </div>
+            </div>
+
+            <div class="work_title">
+                <span class="project_title">The Grammaer of Ornament Poster</span>
+                <span class="project_type">Digital Illustration</span>
+                <hr class="solid_line" />
+            </div>
+
+            <div class="work_container">
+                <div class="images img_carusel14 img_slider hidden">
+                    <img src="images/ornament1.jpg" alt="poster">
+                    <img src="images/ornament2.jpg" alt="poster detail">
+                    <span class="count"></span>
+                    <div class="prev-cursor"></div>
+                    <div class="next-cursor"></div>
+                </div>
+
+                <div class="inside_text">
+                    <p>Poster abstract cu forme geometrice inspirat din primul capitol al cărții The Grammer of Ornament de Owen Jones.</p>
+                    <p>Adobe Illustrator</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div id="footer_text">
+                <p id="contactSection">CONTACT ME!</p>
+                <div id="contact">
+                    <a href="https://www.instagram.com/lini_vibes/">
+                        <p>INSTAGRAM</p>
+                    </a>
+                    <a href="mailto:adelina.iancu22@gmail.com">
+                        <p>MAIL</p>
+                    </a>
+                </div>
+            </div>
+            <span>Copyright @ 2024 Adelina Iancu. All rights reserved.</span>
+        </div>
+
+    </div>
+    <script src="carusel.js"></script>
+
+</body>
+
+</html>
